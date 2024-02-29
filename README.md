@@ -6,7 +6,7 @@ This is a [Python Flask](https://flask.palletsprojects.com/) template generator 
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-python-flask)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oliver042/template-python-flask)
 
 ## Get Started With Your Own Project
 
