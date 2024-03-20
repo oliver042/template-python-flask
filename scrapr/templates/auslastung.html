@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Auslastung des Skigebiets</title>
+    <!-- Bootstrap CSS einbinden -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h1 class="text-center mb-3">Auslastung des Skigebiets</h1>
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Datum und Uhrzeit</th>
+                    <th>Auslastung</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for zeile in daten %}
+                <tr>
+                    <td>{{ zeile[0] }}</td>
+                    <td>{{ zeile[1] }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="/" class="btn btn-primary">Zurück zur Startseite</a>
+    </div>
+</body>
+</html>
